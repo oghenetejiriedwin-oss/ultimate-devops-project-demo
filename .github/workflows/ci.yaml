@@ -89,4 +89,5 @@ jobs:
           git config --global user.name "oghenetejiriedwin-oss"
           git add kubernetes/productcatalog/deploy.yaml
           git commit -m "[CI]: Update product-catalog image"
+          git pull origin main --rebase
           git push origin HEAD:main
